@@ -13,17 +13,17 @@ export const SPIRIT_PHOTOS = "/rovers/spirit/photos?";
 // Filter photos by Camera
 export const CAMERA_KEY = "camera=";
 
-// Front Hazard Avoidance
-export const FHAZ = "FHAZ";
-
-// Rear Hazard Avoidance
-export const RHAZ = "RHAZ";
-
-// Mast
-export const MAST = "MAST";
-
-// Navigation Cameras
-export const NAVCAM = "NAVCAM";
+// Camera Types
+export const CAMERA_TYPES = {
+    // Front Hazard Avoidance
+    FHAZ: "FHAZ",
+    // Rear Hazard Avoidance
+    RHAZ: "RHAZ",
+    // Mast
+    MAST: "MAST",
+    // Navigation Cameras
+    NAVCAM: "NAVCAM"
+}
 
 // Query by Earth Date YYYY-MM-DD
 export const EARTH_DATE_KEY = "earth_date=";

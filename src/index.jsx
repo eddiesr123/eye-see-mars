@@ -6,7 +6,7 @@ import reduxThunk from "redux-thunk";
 import './index.css';
 import "tachyons";
 
-import App from './containers/App';
+import App from './App';
 import reducers from "./reducers";
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

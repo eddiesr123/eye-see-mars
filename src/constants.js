@@ -25,7 +25,7 @@ export const CAMERA_TYPES = {
   NAVCAM: "NAVCAM",
 };
 
-// Query by Earth Date YYYY-MM-DD
+// Query by Earth Date "YYYY-MM-DD"
 export const EARTH_DATE_KEY = "earth_date=";
 
 // Limit query to 25 photos per call with page -- int

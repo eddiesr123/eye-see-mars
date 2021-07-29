@@ -15,15 +15,15 @@ export const CAMERA_KEY = "camera=";
 
 // Camera Types
 export const CAMERA_TYPES = {
-    // Front Hazard Avoidance
-    FHAZ: "FHAZ",
-    // Rear Hazard Avoidance
-    RHAZ: "RHAZ",
-    // Mast
-    MAST: "MAST",
-    // Navigation Cameras
-    NAVCAM: "NAVCAM"
-}
+  // Front Hazard Avoidance
+  FHAZ: "FHAZ",
+  // Rear Hazard Avoidance
+  RHAZ: "RHAZ",
+  // Mast
+  MAST: "MAST",
+  // Navigation Cameras
+  NAVCAM: "NAVCAM",
+};
 
 // Query by Earth Date YYYY-MM-DD
 export const EARTH_DATE_KEY = "earth_date=";
@@ -31,8 +31,5 @@ export const EARTH_DATE_KEY = "earth_date=";
 // Limit query to 25 photos per call with page -- int
 export const PAGE_KEY = "page=";
 
-
-
-
-
-
+// earth date format
+export const DATE_FORMAT = "YYYY-MM-DD";

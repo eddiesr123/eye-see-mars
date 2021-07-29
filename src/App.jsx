@@ -44,14 +44,10 @@ const App = () => {
   const renderContent = () => {
     if (!photos.length) {
       return clickedSearch ? (
-        <h1>"No available images" </h1>
+        <h1>No available images</h1>
       ) : (
         <Fragment>
           <h1>Waiting for you...</h1>
-          <p>
-            Please select a date to see mars photos taken that very day by NASA
-            Rovers. Take it one step further and filter by camera. Have FUN!!
-          </p>
         </Fragment>
       );
     }
@@ -84,6 +80,11 @@ const App = () => {
   return (
     <div className="tc">
       <h1 className="f1">EYE SEE MARS</h1>
+      <p>
+        Please select a date and click "SEE MARS" button to see mars photos
+        taken that very day by NASA Rovers. Take it one step further and filter
+        by camera. Have FUN!!
+      </p>
       <Grid container spacing={2} justifyContent="center" alignItems="center">
         <Grid item lg={2}>
           <DatePicker />
